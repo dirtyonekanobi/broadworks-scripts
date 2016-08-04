@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BroadsoftDocument protocol="OCI" xmlns="C">
+    <sessionId xmlns="">{{sessionId}}</sessionId>{% for user in workinglist %}
+  <command xsi:type="UserDeleteRequest" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <userId>{{user.user}}</userId>
+  </command>{% endfor %}
+</BroadsoftDocument>

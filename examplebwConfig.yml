@@ -1,0 +1,6 @@
+---
+
+bw_host: '8.8.8.8'
+oci_port: 2208 # default is 2208
+bw_userId: 'testUser' # broadsoft username
+bw_password: 'testPassword' # broadsoft password
